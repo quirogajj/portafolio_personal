@@ -18,8 +18,8 @@ body {
     flex-direction: column;
     width: 100%;
     margin-top: 30px;
-    border-color: black;
-    border-style: solid;
+    /*border-color: black;
+    border-style: solid;*/
 }
 
 h1 {
@@ -47,12 +47,14 @@ p {
 
 .profile_image {
     margin-top: 15px;
+    margin-bottom: 20px;
     width: 250px;
     height: 250px;
 }
 
 .networks {
     display: flex;
+    margin-top: 10px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; /* DA UN SALTO DE LINEA*/
@@ -75,20 +77,24 @@ a {
     width: 30px;
     height: 30px;
     margin: 5px;
+    margin-top: 15px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .email {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 10px;
     width: 100px;
     height: 35px;
-    background-color: antiquewhite;
+    background-color: rgb(123, 229, 255);
     cursor: pointer;
-    border-radius: 6%;
+    border-radius: 12px;
+    border: 0px;
 }
 
 .email:hover {
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: scale(1.1);
 }
