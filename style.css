@@ -84,17 +84,7 @@ a {
     transform: scale(1.1);
 }
 
-.email {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 35px;
-    background-color: rgb(123, 229, 255);
-    cursor: pointer;
-    border-radius: 12px;
-    border: 0px;
-}
-
-.email:hover {
-    transform: scale(1.1);
+.mailto {
+    padding-top: 10px;
+    margin: 0;
 }
