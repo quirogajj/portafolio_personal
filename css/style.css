@@ -21,8 +21,20 @@ main {
 
 article {
     width: 50%;
-    padding-left: 60px;
+    padding-left: 100px;
+}
+
+article h2 {
     margin-top: 50px;
+}
+
+article p {
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+article ul {
+    padding-top: 20px;
 }
 
 aside {
@@ -32,12 +44,12 @@ aside {
 }
 
 aside img {
-    width: 400px;
+    width: 450px;
 }
 
 .portfolio h2 {
-    margin-top: 100px;
-    padding-left: 60px;
+    margin-top: 60px;
+    padding-left: 100px;
 }
 
 .card-deck {
